@@ -1,9 +1,6 @@
 {
-  "build": {
-    "builder": "NIXPACKS"
-  },
   "deploy": {
-    "startCommand": "npx serve . -p $PORT",
+    "startCommand": "npx serve -s . -l $PORT",
     "healthcheckPath": "/"
   }
 }
