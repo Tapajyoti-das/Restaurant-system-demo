@@ -10,7 +10,7 @@ const SUPABASE_URL = 'https://dbdstcfgfetvrawzkgoh.supabase.co';
 // paste it below (it starts with rzp_test_).
 // NOTE: Put only the Key ID here — NEVER put the Key SECRET in the code!
 // ============================================================
-const RAZORPAY_KEY_ID = 'rzp_test_PASTE_KEY_HERE';
+const RAZORPAY_KEY_ID = 'ID,rzp_test_T963XAZVCQ2eXL';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRiZHN0Y2ZnZmV0dnJhd3prZ29oIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA0Nzc3NTIsImV4cCI6MjA5NjA1Mzc1Mn0.xorPGjFbodyieYjSoc6UtdaYlVtX_n0GnWi-2STrHHc';
 const _supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
